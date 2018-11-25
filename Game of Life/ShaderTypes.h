@@ -21,11 +21,18 @@
 
 #include <simd/simd.h>
 
+typedef NS_ENUM(NSInteger, ComputeBufferIndex)
+{
+    BufferIndexInputField  = 0,
+    BufferIndexOutputField = 1,
+};
+
 typedef NS_ENUM(NSInteger, BufferIndex)
 {
     BufferIndexMeshPositions = 0,
     BufferIndexMeshGenerics  = 1,
-    BufferIndexUniforms      = 2
+    BufferIndexUniforms      = 2,
+    BufferIndexField         = 3,
 };
 
 typedef NS_ENUM(NSInteger, VertexAttribute)

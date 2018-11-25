@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1B8FCF121A97F320056D737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B8FCF021A97F320056D737 /* Assets.xcassets */; };
 		C1F80BB02198409C0079C84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F80BAF2198409C0079C84C /* AppDelegate.swift */; };
 		C1F80BB22198409C0079C84C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F80BB12198409C0079C84C /* GameViewController.swift */; };
 		C1F80BB42198409C0079C84C /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F80BB32198409C0079C84C /* Renderer.swift */; };
 		C1F80BB62198409C0079C84C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = C1F80BB52198409C0079C84C /* Shaders.metal */; };
-		C1F80BB92198409D0079C84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F80BB82198409D0079C84C /* Assets.xcassets */; };
 		C1F80BBC2198409D0079C84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F80BBA2198409D0079C84C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1B8FCF021A97F320056D737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F80BAC2198409C0079C84C /* Game of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F80BAF2198409C0079C84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F80BB12198409C0079C84C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C1F80BB32198409C0079C84C /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		C1F80BB52198409C0079C84C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		C1F80BB72198409C0079C84C /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
-		C1F80BB82198409D0079C84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F80BBB2198409D0079C84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1F80BBD2198409D0079C84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1F80BBE2198409D0079C84C /* Game_of_Life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Game_of_Life.entitlements; sourceTree = "<group>"; };
@@ -58,12 +58,12 @@
 		C1F80BAE2198409C0079C84C /* Game of Life */ = {
 			isa = PBXGroup;
 			children = (
+				C1B8FCF021A97F320056D737 /* Assets.xcassets */,
 				C1F80BAF2198409C0079C84C /* AppDelegate.swift */,
 				C1F80BB12198409C0079C84C /* GameViewController.swift */,
 				C1F80BB32198409C0079C84C /* Renderer.swift */,
 				C1F80BB52198409C0079C84C /* Shaders.metal */,
 				C1F80BB72198409C0079C84C /* ShaderTypes.h */,
-				C1F80BB82198409D0079C84C /* Assets.xcassets */,
 				C1F80BBA2198409D0079C84C /* Main.storyboard */,
 				C1F80BBD2198409D0079C84C /* Info.plist */,
 				C1F80BBE2198409D0079C84C /* Game_of_Life.entitlements */,
@@ -129,7 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F80BB92198409D0079C84C /* Assets.xcassets in Resources */,
+				C1B8FCF121A97F320056D737 /* Assets.xcassets in Resources */,
 				C1F80BBC2198409D0079C84C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
